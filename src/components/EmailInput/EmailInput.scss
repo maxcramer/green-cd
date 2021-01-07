@@ -9,7 +9,7 @@
         margin-bottom: 7px;
     }
     .email-input {
-        width: 85%;
+        width: 100%;
         height: 35px;
         border: 1px lightgray solid;
         border-radius: 5px;
@@ -21,6 +21,10 @@
         align-items: center;
         p {
             margin: 0
+        }
+        input {
+            margin-left: 0;
+            margin-right: 10px;
         }
     }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import './SubmitButton.scss';
 class SubmitButton extends Component {
     state = {
         showLoginConf: false
@@ -7,7 +8,9 @@ class SubmitButton extends Component {
 
     render() {
         return (
-            <button>Sign In</button>
+            <div className="submit-button_container">
+                <button>Sign In</button>
+            </div>
         )
     }
 

@@ -1,0 +1,18 @@
+
+
+
+.submit-button_container {
+    display: flex;
+    button {
+        background-color: white;
+        border: 1px lightgray solid;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 200;
+        width: 140px;
+        height: 50px;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+}
