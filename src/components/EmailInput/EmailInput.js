@@ -2,14 +2,17 @@ import React from 'react';
 
 import './EmailInput.scss'
 ;
-const Emailinput = () => {
+const EmailInput = () => {
     return (
         <div className="Email">
             <p>Email Address</p>
-            <input type="text" placeholder="Enter email address"/>
-            <input type="checkbox" />
+            <input className="email-input" type="text" />
+            <div className="remember-device">
+                <input type="checkbox" checked/>
+                <p>Remember this device</p>
+            </div>
         </div>
     );
 };
 
-export default Emailinput;
+export default EmailInput;
