@@ -5,7 +5,6 @@ import './Layout.scss';
 
 const layout = (props) => (
     <Aux>
-        <div>Layout Container</div>
         <main className="Content">
             {props.children}
         </main>
